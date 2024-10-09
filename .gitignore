@@ -1,0 +1,30 @@
+# Archivos de configuración de usuario
+[Ll]*.user
+[Ll]*.sln
+[Ll]*.suo
+
+# Archivos de caché y temporales de Unity
+Temp/
+Library/
+Logs/
+Builds/
+Build/
+obj/
+# Archivos de compilación
+*.exe
+*.apk
+*.unitypackage
+
+# Archivos de proyecto de Visual Studio
+*.csproj
+*.pidb
+*.userprefs
+*.sln
+
+# Archivos de respaldo
+*.bak
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
