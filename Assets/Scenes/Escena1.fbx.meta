@@ -3,7 +3,177 @@ guid: 63f62c9c1fdd3ee40be5527ac41bb2e2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: -4820541742559877589, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Azul Calro
+    second: {fileID: 4906430984141981544, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Azul Oscuro
+    second: {fileID: -8142116207166997993, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 5702260598093358636, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botones.001
+    second: {fileID: 2158507478206582889, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe
+    second: {fileID: -3445837258708165485, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe Oscuro Flecha
+    second: {fileID: 6756134970082807829, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cuerpo_Luigi_Dyna.001
+    second: {fileID: -2941567132784858719, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gorra.001
+    second: {fileID: -2863674414447248804, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Guantes.001
+    second: {fileID: 4091161774014771753, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luigi_Cejas.001
+    second: {fileID: -4937115294556190017, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luigi_Ojos.001
+    second: {fileID: 3034485562994456059, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luigi_Pelo_1.001
+    second: {fileID: -293569814791475027, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luigi_Pelo_2.001
+    second: {fileID: -7316201391748693749, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera
+    second: {fileID: 2100000, guid: 4218928476960644583e042060b9341e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Numeros
+    second: {fileID: 674318090891054292, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Overol.001
+    second: {fileID: -8131239223025567412, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Overol_Tiras.001
+    second: {fileID: 5268972658108103809, guid: 4766e60ef5241874cbd6a9e90979a9b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo Estrella
+    second: {fileID: 6830026449301850166, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sombra numero
+    second: {fileID: 3918712582619123591, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde
+    second: {fileID: 5258131358227053084, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Oscuro
+    second: {fileID: -3017264449913628485, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes.002
+    second: {fileID: -4595647386750426025, guid: b87c2e860a6ebbf47a0b4d20884582ee, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: insidemouth.002
+    second: {fileID: 6249465303930774912, guid: b87c2e860a6ebbf47a0b4d20884582ee, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outline (real).001
+    second: {fileID: -6732052803264148178, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yos_bodyOrange.002
+    second: {fileID: 2100000, guid: 9e9984dac2a9ea84894de1acd5576cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshi shoes (real).002
+    second: {fileID: 2100000, guid: 9e9984dac2a9ea84894de1acd5576cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshi shoes (real).top.002
+    second: {fileID: 5702260598093358636, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshigreenofficial.002
+    second: {fileID: 2100000, guid: 32416bdd61c172446bcefefafd88f202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshishellred.002
+    second: {fileID: 6615803683988310702, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshishellwhiteo.002
+    second: {fileID: 1487478415353674914, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshishoesbottomo.002
+    second: {fileID: 7265581224441721909, guid: b87c2e860a6ebbf47a0b4d20884582ee, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshishoesbottomo2.002
+    second: {fileID: -1217246165777379557, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yoshiwhiteo.002
+    second: {fileID: -3011596912677396946, guid: 92157a9de14af3849b1f9f97c8ba3a32, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
