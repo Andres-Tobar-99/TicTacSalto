@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
     public void BotonStart()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
     }
 
     public void BotonExit()
