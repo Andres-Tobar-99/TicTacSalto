@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 23a655365870c8f499ea1ef4b42700e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - winClip: {fileID: 8300000, guid: 2c210171f6cf4d44a80f26150eeb88af, type: 3}
+  - loseClip: {fileID: 8300000, guid: fcf42824e003c6542bd6695c643aa4ac, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

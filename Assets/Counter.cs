@@ -11,6 +11,21 @@ public class Counter : MonoBehaviour
     private bool hasWon = false;
     public GameObject boxGana;
 
+    public GameAudioController audioController;
+
+    void Start()
+    {
+        if (audioController == null)
+        {
+            audioController = FindObjectOfType<GameAudioController>();
+            if (audioController == null)
+            {
+                Debug.LogError("No se encontró un GameAudioController en la escena.");
+            }
+        }
+    }
+
+
     void Update()
     {
         if (!hasWon)
@@ -37,5 +52,14 @@ public class Counter : MonoBehaviour
         Time.timeScale = 0;
         boxGana.SetActive(true);
         // Aquí puedes agregar más lógica para manejar la victoria, como cargar una nueva escena o activar un panel
+
+        if (audioController != null)
+        {
+            audioController.PlayWinSound();
+        }
+        else
+        {
+            Debug.LogWarning("No se asignó el controlador de audio en el script Counter.");
+        }
     }
 }

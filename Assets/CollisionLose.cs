@@ -7,6 +7,9 @@ public class CollisionLose : MonoBehaviour
     public string floorTag = "piso"; // Tag del objeto que representa el piso
     public GameObject loseMessage;   // Mensaje o panel de derrota (opcional)
 
+    public GameAudioController audioController;
+
+
     public static bool gameLost = false; // Variable compartida para verificar si se ha perdido
 
     void Start()
@@ -17,6 +20,15 @@ public class CollisionLose : MonoBehaviour
             loseMessage.SetActive(false);
         }
         gameLost = false;
+
+        if (audioController == null)
+        {
+            audioController = FindObjectOfType<GameAudioController>();
+            if (audioController == null)
+            {
+                Debug.LogError("No se encontró un GameAudioController en la escena.");
+            }
+        }
     }
 
     void OnCollisionEnter(Collision collision)
@@ -35,6 +47,15 @@ public class CollisionLose : MonoBehaviour
         if (loseMessage != null)
         {
             loseMessage.SetActive(true); // Activa el mensaje de derrota si está configurado
+        }
+
+        if (audioController != null)
+        {
+            audioController.PlayLoseSound();
+        }
+        else
+        {
+            Debug.LogWarning("No se asignó un controlador de audio para manejar el sonido de derrota.");
         }
 
         // Puedes agregar aquí más lógica, como detener el juego:
